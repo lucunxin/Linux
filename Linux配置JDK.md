@@ -19,8 +19,8 @@ vi /etc/profile
 #### 输入“G”定位到最后一行，按“i”进入编辑模式，在最下面添加如下几行信息：
 ```Java
 export JAVA_HOME=/soft/jdk1.8.0_181
-export PATH=PATH:JAVA_HOME/bin
-export CLASSPATH=.:JAVA_HOME/lib/dt.jar:JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export JRE_HOME=$JAVA_HOME/jre
 ```
 
