@@ -2,7 +2,7 @@
 
 [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-1.png)
+![Linux安装MySQL-1.png](./images/Linux安装MySQL/Linux安装MySQL-1.png)
 
 ### 2.安装Mysql
 
@@ -32,7 +32,7 @@ whereis mysql
 
 创建mysql文件夹并且解压：
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-2.png)
+![Linux安装MySQL-2.png](./images/Linux安装MySQL/Linux安装MySQL-2.png)
 
 ```Plain Text
 mkdir /soft/mysql
@@ -44,11 +44,11 @@ tar -xvf mysql-8.0.35-1.el8.x86_64.rpm-bundle.tar -C /soft/mysql
 
 ##### 解压之后：
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-3.png)
+![Linux安装MySQL-3.png](./images/Linux安装MySQL/Linux安装MySQL-3.png)
 
 ##### 因为mysql的依赖关系，依次按顺序解压rpm文件
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-4.png)
+![Linux安装MySQL-4.png](./images/Linux安装MySQL/Linux安装MySQL-4.png)
 
 ```Plain Text
 rpm -ivh mysql-community-common-8.0.35-1.el8.x86_64.rpm
@@ -59,7 +59,7 @@ rpm -ivh mysql-community-server-8.0.35-1.el8.x86_64.rpm --force --nodeps
 
 如果执行报错
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-5.png)
+![Linux安装MySQL-5.png](./images/Linux安装MySQL/Linux安装MySQL-5.png)
 
 在命令后加上--force --nodeps
 
@@ -75,11 +75,11 @@ rpm -ivh mysql-community-libs-8.0.35-1.el8.x86_64.rpm --force --nodeps
 ldd $(which mysqld)
 ```
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-6.png)
+![Linux安装MySQL-6.png](./images/Linux安装MySQL/Linux安装MySQL-6.png)
 
 如果缺少依赖，需要下载对应依赖或者更换MySQL版本
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-7.png)
+![Linux安装MySQL-7.png](./images/Linux安装MySQL/Linux安装MySQL-7.png)
 
 
 
@@ -123,7 +123,7 @@ systemctl restart mysqld.service
 cat /var/log/mysqld.log |grep password
 ```
 
-![Linux配置JDK-1.png](./images/Linux安装MySQL/Linux安装MySQL-8.png)
+![Linux安装MySQL-8.png](./images/Linux安装MySQL/Linux安装MySQL-8.png)
 
 登录
 
