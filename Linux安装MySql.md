@@ -4,9 +4,9 @@
 
 ![Linux安装MySQL-1.png](./images/Linux安装MySQL/Linux安装MySQL-1.png)
 
-### 2.安装Mysql
+### 2.安装MySQL
 
-卸载CentOS中的预安装Mysql，不一定需要操作
+卸载CentOS中的预安装MySQL，不一定需要操作
 
 ```Plain Text
 rpm -qa | grep -i mysql
