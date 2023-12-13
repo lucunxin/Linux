@@ -1,4 +1,4 @@
-### 1.下载安装包![Linux配置JDK-1.png](./images/Linux配置JDK/Linux配置JDK-1.png)
+### 1.下载安装包
 
 [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
 
