@@ -13,7 +13,7 @@ git add .
 3、用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
 
 ```
-git commit -m '测试提交'
+git commit -m '初始化提交'
 ```
 
 4、关联到远程库
